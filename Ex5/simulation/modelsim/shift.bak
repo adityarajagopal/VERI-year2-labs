@@ -1,0 +1,6 @@
+add wave -position end /top/CLOCK_50
+add wave -position end -binary /top/LEDG
+
+force /top/CLOCK_50 0 0ns, 1 10ns -repeat 20n
+
+run 380ns

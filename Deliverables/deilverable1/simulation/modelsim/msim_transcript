@@ -1,0 +1,41 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do counter2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable1 {//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable1/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# 
+vsim +altera -do counter2_run_msim_rtl_verilog.do -l msim_transcript -gui work.counter
+# vsim +altera -do counter2_run_msim_rtl_verilog.do -l msim_transcript -gui work.counter 
+# Loading work.counter
+# do counter2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable1 {//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable1/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# 
+do ./tb_counter2
+restart
+# Loading work.counter
+do ./tb_counter2

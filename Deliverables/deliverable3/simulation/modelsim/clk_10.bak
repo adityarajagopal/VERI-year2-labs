@@ -1,0 +1,8 @@
+add wave -position end /top/BUTTON
+add wave -position end /top/CLOCK_50 
+add wave -position end -hexadecimal /top/count
+
+force /top/BUTTON 0 0ns, 1 10ns -repeat 20ns
+force /top/CLOCK_50 1001100010010110011111
+
+run 1s

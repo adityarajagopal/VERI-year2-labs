@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\Verilog\Deliverables\deliverable3\simulation\modelsim
+vclk_div
+IDBiPL@AXjNWlWT[;kO]o01
+VU;]`HnZJfBL7aKhMZR5_>2
+Z1 dH:\Verilog\Deliverables\deliverable3\simulation\modelsim
+w1448625014
+8H:/Verilog/Deliverables/deliverable3/clk_div.v
+FH:/Verilog/Deliverables/deliverable3/clk_div.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+H:/Verilog/Deliverables/deliverable3 -O0
+!i10b 1
+!s100 @58j;PC5c@lo]G1L@B9Q80
+!s85 0
+!s108 1448965738.670000
+!s107 H:/Verilog/Deliverables/deliverable3/clk_div.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/Deliverables/deliverable3|H:/Verilog/Deliverables/deliverable3/clk_div.v|
+!s101 -O0
+vcounter
+!i10b 1
+!s100 Z7VG=iIP457G0_g@S]@6o3
+I]5OnJWTG5VMACSYLkZXRU3
+Vd1F@m1lC[]4J6n856EOXC0
+R1
+w1448965717
+8H:/Verilog/Deliverables/deliverable3/counter.v
+FH:/Verilog/Deliverables/deliverable3/counter.v
+L0 7
+R2
+r1
+!s85 0
+31
+!s108 1448965739.836000
+!s107 H:/Verilog/Deliverables/deliverable3/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/Deliverables/deliverable3|H:/Verilog/Deliverables/deliverable3/counter.v|
+!s101 -O0
+R3
+R4
+vhex_to_7seg
+Ia=Ega2cNKcAToB]M4ZCES3
+VmajmUT@0;iC?5d23GJR[Q1
+R1
+w1448017372
+8H:/Verilog/Deliverables/deliverable3/hex_to_7seg.v
+FH:/Verilog/Deliverables/deliverable3/hex_to_7seg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ?I6ffZ4EHB5eBl3]62jeG1
+!s85 0
+!s108 1448965739.505000
+!s107 H:/Verilog/Deliverables/deliverable3/hex_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/Deliverables/deliverable3|H:/Verilog/Deliverables/deliverable3/hex_to_7seg.v|
+!s101 -O0
+vtop
+IM00Nme]^`0hn9G^AWHk8l0
+VUmE2AS44Zmh2Jm?MJ2V0[2
+R1
+w1448965542
+8H:/Verilog/Deliverables/deliverable3/top.v
+FH:/Verilog/Deliverables/deliverable3/top.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 zeQ;i6HR[5<3?eCc<]zTd0
+!s85 0
+!s108 1448965739.219000
+!s107 H:/Verilog/Deliverables/deliverable3/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/Deliverables/deliverable3|H:/Verilog/Deliverables/deliverable3/top.v|
+!s101 -O0

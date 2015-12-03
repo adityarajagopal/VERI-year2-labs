@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 d\\icnas2.cc.ic.ac.uk\mr4314\Verilog\Deliverables\deilverable2\simulation\modelsim
+vclk_div
+!i10b 1
+!s100 B[z[YRk?W<bo3^M75g2Lb1
+I[h9WzH>?DM?BS>TSUHc0Q2
+VU;]`HnZJfBL7aKhMZR5_>2
+Z1 d\\icnas2.cc.ic.ac.uk\mr4314\Verilog\Deliverables\deilverable2\simulation\modelsim
+w1448624503
+8//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable2/clk_div.v
+F//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable2/clk_div.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1448624571.516000
+!s107 //icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable2/clk_div.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable2|//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable2/clk_div.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+//icnas2.cc.ic.ac.uk/mr4314/Verilog/Deliverables/deilverable2 -O0

@@ -1,0 +1,66 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do shift_pattern_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+H:/Verilog/Ex5 {H:/Verilog/Ex5/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+H:/Verilog/Ex5 {H:/Verilog/Ex5/shift_pattern.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_pattern
+# 
+# Top level modules:
+# 	shift_pattern
+# 
+vsim +altera -do shift_pattern_run_msim_rtl_verilog.do -l msim_transcript -gui work.top
+# vsim +altera -do shift_pattern_run_msim_rtl_verilog.do -l msim_transcript -gui work.top 
+# Loading work.top
+# Loading work.shift_pattern
+# do shift_pattern_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+H:/Verilog/Ex5 {H:/Verilog/Ex5/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+H:/Verilog/Ex5 {H:/Verilog/Ex5/shift_pattern.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_pattern
+# 
+# Top level modules:
+# 	shift_pattern
+# 
+do ./shift
+restart
+# Loading work.top
+# Loading work.shift_pattern
+do ./shift
+# ** Error: Invalid binary digit: n.
+# ** Error: (vsim-4011) Invalid force value: 0ns 0000000001.
+# Error in macro ././shift line 5
+# Invalid binary digit: n.
+# ** Error: (vsim-4011) Invalid force value: 0ns 0000000001.
+# 
+#     while executing
+# "force /top/LEDG 0ns 0000000001"
+do ./shift
+restart 
+do ./shift

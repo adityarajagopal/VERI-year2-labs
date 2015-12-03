@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 d\\icnas2.cc.ic.ac.uk\mr4314\Verilog\Ex3\simulation\modelsim
+vcounter
+!i10b 1
+!s100 H8hgmM6QR2DQfa?KHIf=i2
+IWfQ9IT35PdaVJXEM8ZAnl2
+VOUE`@2@LNZH^Yg1oF=mGK0
+Z1 d\\icnas2.cc.ic.ac.uk\mr4314\Verilog\Ex3\simulation\modelsim
+w1448019308
+8//icnas2.cc.ic.ac.uk/mr4314/Verilog/Ex3/counter.v
+F//icnas2.cc.ic.ac.uk/mr4314/Verilog/Ex3/counter.v
+L0 7
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1448615818.012000
+!s107 //icnas2.cc.ic.ac.uk/mr4314/Verilog/Ex3/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+//icnas2.cc.ic.ac.uk/mr4314/Verilog/Ex3|//icnas2.cc.ic.ac.uk/mr4314/Verilog/Ex3/counter.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+//icnas2.cc.ic.ac.uk/mr4314/Verilog/Ex3 -O0
