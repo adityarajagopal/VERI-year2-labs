@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\Verilog\Ex6\simulation\modelsim
+vpulse_gen
+!i10b 1
+!s100 CFA`PfbjM[FN:j2b475_z0
+INh:_3m1QcCkecaC`hQfFa0
+VMQRV]ENEgJiNP<=dcBHgA0
+Z1 dH:\Verilog\Ex6\simulation\modelsim
+w1449226033
+8H:/Verilog/Ex6/pulse_gen.v
+FH:/Verilog/Ex6/pulse_gen.v
+L0 9
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1449226077.505000
+!s107 H:/Verilog/Ex6/pulse_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/Ex6|H:/Verilog/Ex6/pulse_gen.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+H:/Verilog/Ex6 -O0

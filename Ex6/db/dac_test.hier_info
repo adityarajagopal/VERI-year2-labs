@@ -1,0 +1,104 @@
+|top
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+CLOCK_50 => CLOCK_50.IN3
+DAC_CS <= spi2dac:converter.port4
+DAC_SDI <= spi2dac:converter.port3
+DAC_LD <= spi2dac:converter.port6
+SCK <= spi2dac:converter.port5
+
+
+|top|clk_div:clock_divider
+clkin => constant[0].CLK
+clkin => constant[1].CLK
+clkin => constant[2].CLK
+clkin => constant[3].CLK
+clkin => constant[4].CLK
+clkin => constant[5].CLK
+clkin => constant[6].CLK
+clkin => constant[7].CLK
+clkin => constant[8].CLK
+clkin => constant[9].CLK
+clkin => constant[10].CLK
+clkin => constant[11].CLK
+clkin => constant[12].CLK
+clkin => constant[13].CLK
+clkin => constant[14].CLK
+clkin => constant[15].CLK
+clkin => constant[16].CLK
+clkin => constant[17].CLK
+clkin => constant[18].CLK
+clkin => constant[19].CLK
+clkin => constant[20].CLK
+clkin => constant[21].CLK
+clkin => clkout~reg0.CLK
+tc[0] => constant.DATAB
+tc[1] => constant.DATAB
+tc[2] => constant.DATAB
+tc[3] => constant.DATAB
+tc[4] => constant.DATAB
+tc[5] => constant.DATAB
+tc[6] => constant.DATAB
+tc[7] => constant.DATAB
+tc[8] => constant.DATAB
+tc[9] => constant.DATAB
+tc[10] => constant.DATAB
+tc[11] => constant.DATAB
+tc[12] => constant.DATAB
+tc[13] => constant.DATAB
+tc[14] => constant.DATAB
+tc[15] => constant.DATAB
+tc[16] => constant.DATAB
+tc[17] => constant.DATAB
+tc[18] => constant.DATAB
+tc[19] => constant.DATAB
+tc[20] => constant.DATAB
+tc[21] => constant.DATAB
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|pulse_gen:pulse_generator
+clkin => load~reg0.CLK
+clkin => state~1.DATAIN
+trigger => load.DATAB
+trigger => Selector0.IN1
+trigger => state.IDLE.DATAIN
+load <= load~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|spi2dac:converter
+sysclk => dac_start.CLK
+sysclk => clk_1MHz.CLK
+sysclk => ctr[0].CLK
+sysclk => ctr[1].CLK
+sysclk => ctr[2].CLK
+sysclk => ctr[3].CLK
+sysclk => ctr[4].CLK
+sysclk => sr_state~1.DATAIN
+data_in[0] => shift_reg.DATAB
+data_in[1] => shift_reg.DATAB
+data_in[2] => shift_reg.DATAB
+data_in[3] => shift_reg.DATAB
+data_in[4] => shift_reg.DATAB
+data_in[5] => shift_reg.DATAB
+data_in[6] => shift_reg.DATAB
+data_in[7] => shift_reg.DATAB
+data_in[8] => shift_reg.DATAB
+data_in[9] => shift_reg.DATAB
+load => Selector1.IN1
+load => dac_start.OUTPUTSELECT
+load => Selector0.IN1
+dac_sdi <= shift_reg[15].DB_MAX_OUTPUT_PORT_TYPE
+dac_cs <= dac_cs~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dac_sck <= dac_sck.DB_MAX_OUTPUT_PORT_TYPE
+dac_ld <= dac_ld~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,9 @@
+add wave -position end /pulse_gen/clkin
+add wave -position end /pulse_gen/trigger
+add wave -position end /pulse_gen/load
+
+force /pulse_gen/clkin 0 0ns,  1 10ns -repeat 20ns
+force /pulse_gen/trigger 0 0ns,  1 50ns, 0 100ns
+
+run 380ns
+

@@ -1,0 +1,14 @@
+add wave -position end /spi2dac/sysclk 
+add wave -position end /spi2dac/data_in
+add wave -position end /spi2dac/load
+
+add wave -position end /spi2dac/dac_sdi
+add wave -position end /spi2dac/dac_cs
+add wave -position end /spi2dac/dac_sck
+add wave -position end /spi2dac/dac_ld
+
+force /spi2dac/sysclk 0 0ns, 1 10ns -repeat 20ns
+force /spi2dac/data_in 1000111011
+force /spi2dac/load 0 0ns, 1 10ns, 0 40ns
+
+run 20000 ns
